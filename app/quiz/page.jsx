@@ -29,12 +29,13 @@ const QuizPage = () => {
   useEffect(() => {
     let setquestions = possibleQuestions;
 
-    while (setquestions.length < 20) {
+    while (setquestions.length <= 20) {
       setquestions = setquestions.concat(possibleQuestions);
     }
     setquestions.length = 20;
 
     setquestions = shuffleArray(setquestions);
+    setquestions.unshift(undefined);
     console.log(setquestions);
 
     setQuestions(setquestions);
