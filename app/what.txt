@@ -1,0 +1,6 @@
+do a end game screen with replay button and quit button (witch closes the tab)
+fix the &quot; or &and; and that stuff
+show baba
+show mama
+do changes
+make it use the actual api
